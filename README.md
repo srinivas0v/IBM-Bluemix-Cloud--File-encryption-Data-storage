@@ -2,7 +2,8 @@
 python flask app deployed on IBM Bluemix cloud
 The objective was security of files in cloud data storage 'Dropbox' like service. The user can upload a file which will be encrypted using GNU Privacy Guard and uploaded to the object store. The encrypted file can be downloaded & decrypted locally. The objects can be listed. Built using Cloud Foundry, Python
 
-Code.py running locally, will 
+Code.py 
+running locally, will 
     - create a simple menu to: list local files 
     - menu has exit option
     - checksum (add all bytes together) or XOR all bytes in the file
@@ -16,7 +17,8 @@ Created two cloud based folders, one for new version of files the other folder  
       (for example, all cloud storage files greater than 1000 bytes)
 
 
-Code1.py running locally, should 
+Code1.py 
+running locally, should 
     - create a simple menu to: list local files 
     - allow a user to input an encryption key (4 digits)
     - allow a user to select which text files to encrypt
