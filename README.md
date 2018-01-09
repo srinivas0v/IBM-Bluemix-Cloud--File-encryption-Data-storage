@@ -14,3 +14,25 @@ Created two cloud based folders, one for new version of files the other folder  
     - allow a user to list the contents of a remote folder 
     - allow a user to remove all (cloud) files that are greater in size than a user specified size
       (for example, all cloud storage files greater than 1000 bytes)
+
+
+Code1.py running locally, should 
+    - create a simple menu to: list local files 
+    - allow a user to input an encryption key (4 digits)
+    - allow a user to select which text files to encrypt
+    - menu has a option to decrypt local files using the key
+    - menu has exit option
+    
+    Using local menu     
+    - upload files to cloud storage and delete that (original) file locally (only encrypted files stored locally)
+    - menu should list cloud files
+    - be able to get file from cloud to local
+    
+ Created two cloud based folders, one for text one for all other file types 
+    - allow a user to list the contents of a remote folder 
+    - allow a user to remove all (cloud) files that are greater in size than a user specified size
+      (for example, all cloud storage files greater than 1000 bytes)
+      
+ Replaced cloud folders with SQL database, place "uploaded" files into that DB.
+    - Allow a user to see which files are in that in that DB.
+    - Allow user to delete or replace files.
